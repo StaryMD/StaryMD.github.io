@@ -139,10 +139,10 @@ function draw() {
 	textSize(30);
 	fill(255, 0, 0);
 	text('Who moves next:', 1130, 30);
-	if(moves.length % 2) // I shall move next
-		image(eu, 1100, 40, 300, 300)
-	else // He shall move next
-		image(el, 1100, 40, 300, 300);
+	if(moves.length % 2)
+		image(el, 1100, 40, 300, 300)
+	else
+		image(eu, 1100, 40, 300, 300);
 
 	text('Move history:', 1160, 600);
 
