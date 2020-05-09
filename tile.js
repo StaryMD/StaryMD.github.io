@@ -62,5 +62,3 @@ let N = 0;
 let E = 1;
 let S = 2;
 let W = 3;
-
-grid = [];
