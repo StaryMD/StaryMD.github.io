@@ -86,7 +86,7 @@ function draw() {
 
 	
 	// Read stored lines
-	for(var i = 0; i < moves.length; i++) {
+	for(var i = 0; moves[i].length > 2; i++) {
 		let move = moves[i].split(' ');
 		let player = move[0];
 		let x = parseInt(move[1]) - 1;
