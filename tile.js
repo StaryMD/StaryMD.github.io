@@ -1,12 +1,15 @@
 class Tile {
     walls = [];
+    marked;
 
     setNewWalls() {
         this.walls = [false, false, false, false];
+        this.marked = false;
     }
 
     buildWall(dir) {
         this.walls[dir] = true;
+        return this.walls[N] && this.walls[E] && this.walls[S] && this.walls[W] && !this.marked;
     }
 
     isWall(dir) {
@@ -14,13 +17,13 @@ class Tile {
     }
 
     render(x, y) {
-        if(this.walls[0])
+        if(this.walls[N])
             line(x, y, x + tileSize, y);
-        if(this.walls[1])
+        if(this.walls[E])
             line(x + tileSize, y, x + tileSize, y + tileSize);
-        if(this.walls[2])
+        if(this.walls[S])
             line(x, y + tileSize, x + tileSize, y + tileSize);
-        if(this.walls[3])
+        if(this.walls[W])
             line(x, y, x, y + tileSize);
     }
 
@@ -47,10 +50,6 @@ class Tile {
         }
         vertex(x + tileSize / 2, y + tileSize / 2);
         endShape(CLOSE);
-    }
-
-    getVal() {
-        return this.walls;
     }
 }
 

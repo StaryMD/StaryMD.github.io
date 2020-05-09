@@ -1,3 +1,4 @@
+grid = [];
 let gridWidth = tableWidth * tileSize;
 let gridHeight = tableHeight * tileSize;
 
@@ -87,7 +88,7 @@ function draw() {
 	// Read stored lines
 	for(var i = 0; i < moves.length; i++) {
 		let move = moves[i].split(' ');
-
+		let player = move[0];
 		let x = parseInt(move[1]) - 1;
 		let y = parseInt(move[2]) - 1;
 
@@ -101,16 +102,27 @@ function draw() {
 		if(move[3] == "W")
 			curDir = W;
 
-		grid[y][x].buildWall(curDir);
+		newSquares = 0;
+
+		newSquares += grid[y][x].buildWall(curDir);
 
 		if(curDir == N && y > 0)
-			grid[y - 1][x].buildWall(S);
+			newSquares += grid[y - 1][x].buildWall(S);
 		if(curDir == E && x < tableWidth - 1)
-			grid[y][x + 1].buildWall(W);
+			newSquares += grid[y][x + 1].buildWall(W);
 		if(curDir == S && y < tableHeight - 1)
-			grid[y + 1][x].buildWall(N);
+			newSquares += grid[y + 1][x].buildWall(N);
 		if(curDir == W && x > 0)
-			grid[y][x - 1].buildWall(E);
+			newSquares += grid[y][x - 1].buildWall(E);
+		
+
+		if(!grid[y][x].marked && newSquares) {
+			grid[y][x].marked = true;
+			if(player == 'V')
+				scoreEu += newSquares;
+			if(player == 'N')
+				scoreEl += newSquares;
+		}
 	}
 	
 
@@ -132,8 +144,18 @@ function draw() {
 	else // He shall move next
 		image(el, 1100, 40, 300, 300);
 
-	text('Move history:', 1160, 400);
+	text('Move history:', 1160, 600);
+
+	// Score display
+
+	text('Score:', 1100, 400);
+	fill(0, 0, 256);
+	text('Eu: ' + str(scoreEu), 1130, 445);
+	fill(0);
+	text(' El: ' + str(scoreEl), 1130, 490);
 }
+
+lastMove = '';
 
 function mouseClicked() {
 	if(mouseX >= 25 && mouseX < gridWidth + 25 && mouseY >= 25 && mouseY < gridHeight + 25) {
@@ -165,14 +187,26 @@ function mouseClicked() {
 			if(curDir == W)
 				curDir = 'W';
 
-			moves.push('V ' + col + ' ' + row + ' ' + curDir);
-			print('New move at:', col, row, curDir);
+			curMove = col + ' ' + row + ' ' + curDir;
 
-			let file = createWriter('moves.txt');
-			for(var i = 0; i < moves.length; i++) {
-				file.write([moves[i]]);
-				print('yep')
+			if(curMove != lastMove) {
+				lastMove = curMove;
+
+				if(moves.length % 2)
+					moves.push(curMove = 'V ' + curMove);
+				else
+					moves.push(curMove = 'N ' + curMove);
+
+				textToWrite = 'New move:  ' + curMove;
+				
+				print(textToWrite);
+				/*
+				alert(textToWrite);
+				*/
 			}
 		}
 	}
 }
+
+var scoreEu = 0;
+var scoreEl = 0;
