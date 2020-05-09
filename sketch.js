@@ -150,9 +150,9 @@ function draw() {
 
 	text('Score:', 1100, 400);
 	fill(0, 0, 256);
-	text('Eu: ' + str(scoreEu), 1130, 445);
+	text('V: ' + str(scoreEu), 1133, 445);
 	fill(0);
-	text(' El: ' + str(scoreEl), 1130, 490);
+	text('N: ' + str(scoreEl), 1130, 490);
 }
 
 lastMove = '';
