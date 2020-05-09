@@ -200,9 +200,7 @@ function mouseClicked() {
 				textToWrite = 'New move:  ' + curMove;
 				
 				print(textToWrite);
-				/*
 				alert(textToWrite);
-				*/
 			}
 		}
 	}
