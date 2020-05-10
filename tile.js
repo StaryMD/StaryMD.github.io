@@ -9,7 +9,12 @@ class Tile {
 
     buildWall(dir) {
         this.walls[dir] = true;
-        return this.walls[N] && this.walls[E] && this.walls[S] && this.walls[W] && !this.marked;
+
+        var val = this.walls[N] && this.walls[E] && this.walls[S] && this.walls[W] && !this.marked;
+        if(val)
+            this.marked = true;
+        return val;
+        // returns true if a new square is completed
     }
 
     isWall(dir) {

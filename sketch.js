@@ -1,13 +1,24 @@
 grid = [];
 let gridWidth = tableWidth * tileSize;
 let gridHeight = tableHeight * tileSize;
+var nextPlayer = '';
+var lastMove = '';
+var scoreEu = 0;
+var scoreEl = 0;
+var lastLineX;
+var lastLineY;
+var lastLineDir;
 
 function setup() {
 	createCanvas(windowWidth, gridHeight + tileSize * 1.5);
 	moves = loadStrings('moves.txt');
 	eu = loadImage('img/eu.png');
 	el = loadImage('img/el.png');
-	
+}
+
+function draw() {
+	background(255)
+
 	// Initialize table without walls
 	for(var y = 0; y < tableHeight; y++) {
 		grid[y] = [];
@@ -17,6 +28,7 @@ function setup() {
 		}
 	}
 	
+
 	// Build outside walls
 	for(var i = 0; i < tableHeight; i++) {
 		grid[i][0].buildWall(W);
@@ -26,10 +38,7 @@ function setup() {
 		grid[0][i].buildWall( N);
 		grid[tableHeight - 1][i].buildWall(S);
 	}
-}
 
-function draw() {
-	background(255)
 
 	// Draws the numbers
 	translate(0, 0);
@@ -45,7 +54,7 @@ function draw() {
 	translate(25, 25)
 
 
-	// Looking at
+	// Looking at grid
 	if(mouseX >= 25 && mouseX < gridWidth + 25 && mouseY >= 25 && mouseY < gridHeight + 25) {
 		let x = ~~(mouseX % tileSize);
 		let y = ~~(mouseY % tileSize);
@@ -85,12 +94,19 @@ function draw() {
 	line(0, gridHeight, gridWidth, gridHeight);
 
 	
+	if(moves[moves.length - 1] == '')
+		moves.pop();
+
 	// Read stored lines
-	for(var i = 0; i < moves.length - 1; i++) {
+	scoreEl = 0;
+	scoreEu = 0;
+	for(var i = 0; i < moves.length; i++) {
 		let move = moves[i].split(' ');
 		let player = move[0];
 		let x = parseInt(move[1]) - 1;
 		let y = parseInt(move[2]) - 1;
+		lastLineX = x;
+		lastLineY = y;
 
 		var curDir = 0;
 		if(move[3] == "N")
@@ -101,10 +117,9 @@ function draw() {
 			curDir = S;
 		if(move[3] == "W")
 			curDir = W;
+		lastLineDir = curDir;
 
-		newSquares = 0;
-
-		newSquares += grid[y][x].buildWall(curDir);
+		newSquares = grid[y][x].buildWall(curDir);
 
 		if(curDir == N && y > 0)
 			newSquares += grid[y - 1][x].buildWall(S);
@@ -116,12 +131,21 @@ function draw() {
 			newSquares += grid[y][x - 1].buildWall(E);
 		
 
-		if(!grid[y][x].marked && newSquares) {
-			grid[y][x].marked = true;
-			if(player == 'V')
+		if(newSquares) {
+			if(player == 'V') {
 				scoreEu += newSquares;
-			if(player == 'N')
+				nextPlayer = 'V';
+			}
+			if(player == 'N') {
 				scoreEl += newSquares;
+				nextPlayer = 'N';
+			}
+		}
+		else {
+			if(player == 'V')
+				nextPlayer = 'N';
+			if(player == 'N')
+				nextPlayer = 'V';
 		}
 	}
 	
@@ -134,28 +158,38 @@ function draw() {
 			grid[i][j].render(j * tileSize, i * tileSize);
 	
 	
+	// Draw last line red
+	stroke(255, 0, 0);
+	if(lastLineDir == N)
+		line(lastLineX * tileSize, lastLineY * tileSize, (lastLineX + 1) * tileSize, lastLineY * tileSize)
+	if(lastLineDir == E)
+		line((lastLineX + 1) * tileSize, lastLineY * tileSize, (lastLineX + 1) * tileSize, (lastLineY + 1) * tileSize);
+	if(lastLineDir == S)
+		line(lastLineX * tileSize, (lastLineY + 1) * tileSize, (lastLineX + 1) * tileSize, (lastLineY + 1) * tileSize);
+	if(lastLineDir == W)
+		line(lastLineX * tileSize, lastLineY * tileSize, lastLineX * tileSize, (lastLineY + 1) * tileSize);
+	
+	
 	// Who shall move next
 	noStroke();
 	textSize(30);
 	fill(255, 0, 0);
 	text('Who moves next:', 1130, 30);
-	if(moves.length % 2)
+	if(nextPlayer == 'N')
 		image(el, 1100, 40, 300, 300)
-	else
+	if(nextPlayer == 'V')
 		image(eu, 1100, 40, 300, 300);
 
 	text('Move history:', 1160, 600);
 
-	// Score display
 
+	// Score display
 	text('Score:', 1100, 400);
 	fill(0, 0, 256);
 	text('V: ' + str(scoreEu), 1133, 445);
 	fill(0);
 	text('N: ' + str(scoreEl), 1130, 490);
 }
-
-lastMove = '';
 
 function mouseClicked() {
 	if(mouseX >= 25 && mouseX < gridWidth + 25 && mouseY >= 25 && mouseY < gridHeight + 25) {
@@ -191,11 +225,7 @@ function mouseClicked() {
 
 			if(curMove != lastMove) {
 				lastMove = curMove;
-
-				if(moves.length % 2)
-					moves.push(curMove = 'V ' + curMove);
-				else
-					moves.push(curMove = 'N ' + curMove);
+				moves.push(curMove = nextPlayer + ' ' + curMove);
 
 				textToWrite = 'New move:  ' + curMove;
 				
@@ -205,6 +235,3 @@ function mouseClicked() {
 		}
 	}
 }
-
-var scoreEu = 0;
-var scoreEl = 0;
