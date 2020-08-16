@@ -59,3 +59,4 @@ V 9 10 N
 N 10 10 N
 V 16 8 W   
 N 11 10 N   :)
+V 11 11 S  aaah yes, the negotiator
