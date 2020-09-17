@@ -62,3 +62,4 @@ N 11 10 N   :)
 V 11 11 S  ODIN IS WITH US
 N 11 11 E  Indeed
 V 11 10 E  *surprised pikachu face*
+N 8 9 E    Sper sa terminam partida inainte sa termin eu univeru
