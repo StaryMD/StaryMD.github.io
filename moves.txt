@@ -64,3 +64,4 @@ N 11 11 E  Indeed
 V 11 10 E  *surprised pikachu face*
 N 8 9 E    Sper sa terminam partida inainte sa termin eu univeru
 V 11 9 W   Esti dibil? eu vreu sa termin jiu
+N 8 8 E    Cum la time? Cand incepi studiile?
