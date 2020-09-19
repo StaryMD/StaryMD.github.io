@@ -65,3 +65,4 @@ V 11 10 E  *surprised pikachu face*
 N 8 9 E    Sper sa terminam partida inainte sa termin eu univeru
 V 11 9 W   Esti dibil? eu vreu sa termin jiu
 N 8 8 E    Cum la time? Cand incepi studiile?
+V 11 8 W   Pe 21 incep, online de acasa, tre sa caut oraru xD la tn?
