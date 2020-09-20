@@ -68,3 +68,4 @@ N 8 8 E    Cum la time? Cand incepi studiile?
 V 11 8 W   Pe 21 incep, online de acasa, tre sa caut oraru xD la tn?
 N 9 7 W    La mine tat pizdos, iaca invat
 V 11 7 W   omigod, cu tempul asta terminam in this lifetime
+N 10 6 E   Posibil
