@@ -72,3 +72,4 @@ N 10 6 E   Posibil
 V 8 6 E    I just realised, o sa vina o vreme cand o sa treb sa compeltam mai multe la rand, fuck
 N 9 5 W    Nu degraba
 V 10 4 E   tru, voi faceti cursurile online sau fizic?
+N 10 4 N   fizic, cum la tine so inceput? Cum lectiile? 
