@@ -75,3 +75,4 @@ V 10 4 E   tru, voi faceti cursurile online sau fizic?
 N 10 4 N   fizic, cum la tine so inceput? Cum lectiile? 
 V 9 4 N    lucker, noi facem tot online -_- lectiile norm
 N 9 4 W    cruta 
+V 31 6 S   azi o zis ca o sa codim in Verilog
