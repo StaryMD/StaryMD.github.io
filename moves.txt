@@ -77,3 +77,4 @@ V 9 4 N    lucker, noi facem tot online -_- lectiile norm
 N 9 4 W    cruta 
 V 31 6 S   azi o zis ca o sa codim in Verilog
 N 9 6 N    Wtf is that?
+V 30 7 N   Asa am zis sh eu, eu ma asteptam la C worst case, sh ashela fut Verilog xD
