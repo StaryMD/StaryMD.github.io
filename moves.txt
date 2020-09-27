@@ -79,3 +79,4 @@ V 31 6 S   azi o zis ca o sa codim in Verilog
 N 9 6 N    Wtf is that?
 V 30 7 N   Asa am zis sh eu, eu ma asteptam la C worst case, sh ashela fut Verilog xD
 N 10 5 S   Si amush el tacoi deschideti caietelele si scrieti interactiunea dintre assembler si fortan
+V 32 4 W   think that, but 6.9 times worse, limbaju seamana cu Pascal xD
