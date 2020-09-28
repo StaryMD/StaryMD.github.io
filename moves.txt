@@ -81,3 +81,4 @@ V 30 7 N   Asa am zis sh eu, eu ma asteptam la C worst case, sh ashela fut Veril
 N 10 5 S   Si amush el tacoi deschideti caietelele si scrieti interactiunea dintre assembler si fortan
 V 32 4 W   think that, but 6.9 times worse, limbaju seamana cu Pascal xD
 N 21 12 W  ) 
+V 32 3 W   aaaah yes, seminar in 4 min
