@@ -84,3 +84,4 @@ N 21 12 W  )
 V 32 3 W   aaaah yes, seminar in 4 min
 N 15 5 S   https://i.imgflip.com/3ogfsq.png 
 V 32 3 N
+N 15 10 N  (silence)
