@@ -83,3 +83,4 @@ V 32 4 W   think that, but 6.9 times worse, limbaju seamana cu Pascal xD
 N 21 12 W  ) 
 V 32 3 W   aaaah yes, seminar in 4 min
 N 15 5 S   https://i.imgflip.com/3ogfsq.png 
+V 32 3 N
