@@ -86,3 +86,4 @@ N 15 5 S   https://i.imgflip.com/3ogfsq.png
 V 32 3 N
 N 15 10 N  (silence)
 V 33 3 N   C ii de-a pl, C++ FTW
+N 17 7 W   Cand treceti la fizic, nu stii? 
