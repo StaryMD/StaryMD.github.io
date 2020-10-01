@@ -88,3 +88,4 @@ N 15 10 N  (silence)
 V 33 3 N   C ii de-a pl, C++ FTW
 N 17 7 W   Cand treceti la fizic, nu stii? 
 V 32 4 S   Posibil peste 5 sapt, da nu-i confirmat
+N 16 8 E   Vei sta in camin? 
