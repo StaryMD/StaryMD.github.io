@@ -95,3 +95,4 @@ V 33 5 E   update: sh caminu ii cu plata deam sh tot sem ii online, bag pl
 N 10 21 E  pezdos
 V 34 6 W   pe unu din clasa il cheama Ogurcin... agurchick xD
 N 10 20 E   
+V 31 4 S   am stat oleac sh m-am gandit la ceva bun de zis, couldnt come up with smth, srry
