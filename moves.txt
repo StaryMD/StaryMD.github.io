@@ -99,3 +99,4 @@ V 31 4 S   am stat oleac sh m-am gandit la ceva bun de zis, couldnt come up with
 N 10 19 W  petrusca
 V 30 4 S   https://i.kym-cdn.com/photos/images/original/001/490/362/5af.png
 N 12 20 W  https://i.imgur.com/SNOJIvb.jpg 
+V 30 4 W   https://pbs.twimg.com/media/DcgR_SJX0AEpA5H.jpg
