@@ -100,3 +100,4 @@ N 10 19 W  petrusca
 V 30 4 S   https://i.kym-cdn.com/photos/images/original/001/490/362/5af.png
 N 12 20 W  https://i.imgur.com/SNOJIvb.jpg 
 V 30 4 W   https://pbs.twimg.com/media/DcgR_SJX0AEpA5H.jpg
+N 12 19 E  https://i.kym-cdn.com/photos/images/newsfeed/001/755/550/1ea.jpg 
