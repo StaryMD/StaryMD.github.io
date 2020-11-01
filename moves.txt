@@ -104,3 +104,4 @@ N 12 19 E  https://i.kym-cdn.com/photos/images/newsfeed/001/755/550/1ea.jpg
 V 29 3 E   https://i.pinimg.com/originals/db/83/da/db83da28618b51b9b3a03fbadee9c961.jpg
 N 13 21 E  Te duci la alegeri?
 V 24 19 N  goto 103
+N 14 20 W   
