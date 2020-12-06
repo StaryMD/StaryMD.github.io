@@ -124,3 +124,4 @@ N 15 20 S  tu in a doilea semestru deam fizic o sa fii?
 V 22 6 W   not confirmed, nu stim nimic, da speram
 N 17 21 E  faci ceva interesant acasa?
 V 20 4 N   Am o idee pdoasa de joc, bllllll o sa shie *https://giphy.com/gifs/8Odq0zzKM596g*, fac research pe tema these days
+N 17 20 E  I'm waiting for updates
