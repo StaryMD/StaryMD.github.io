@@ -122,3 +122,4 @@ N 14 20 S  la mine norm, lectiile easiac, la jumate din ele pravda nici nu ma du
 V 18 6 W   eu caatare nu ma grabesc la lucru pt ca inca is acasa, da as vre sa gasesc pana se incepe al 2-lea sem
 N 15 20 S  tu in a doilea semestru deam fizic o sa fii?
 V 22 6 W   not confirmed, nu stim nimic, da speram
+N 17 21 E  faci ceva interesant acasa?
