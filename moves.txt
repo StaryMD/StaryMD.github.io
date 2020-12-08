@@ -128,3 +128,4 @@ N 17 20 E  I'm waiting for updates
 V 23 5 W   and thou shall wait until told otherwise
 N 18 19 W  amin
 V 21 4 E   yeee, mananc derivate partiale pe paine
+N 18 19 N  ecuatii diferentiale omogene de gradul 2 ca rasarita 
