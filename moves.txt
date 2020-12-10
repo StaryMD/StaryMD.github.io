@@ -132,3 +132,4 @@ N 18 19 N  ecuatii diferentiale omogene de gradul 2 ca rasarita
 V 18 3 S   https://i.imgur.com/UV3Rdf1.png , btw, incepe sa-mi placa acel pleasant surprise cand intru ep site sh vad ca eu tre sa mut
 N 19 19 N  132 moveuri, not bad, poate terminam pan la sfarsitul universitatii
 V 23 6 S   bruh, is 4k mutari
+N 20 19 W  sau nu terminam   
