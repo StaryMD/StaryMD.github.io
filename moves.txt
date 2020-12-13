@@ -138,3 +138,4 @@ N 19 20 E  we am 2 intrebari, cum tu stai cu site-urile? si daca vrei sa faci ru
 V 23 4 W   imi place sa intru pe site-uri; da ; why tho? u got a good idea?
 N 19 21 N  go un zvanok pe la vreo 18?
 V 22 5 W   k
+N 22 19 N  zbs
