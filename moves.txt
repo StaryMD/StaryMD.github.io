@@ -135,3 +135,4 @@ V 23 6 S   bruh, is 4k mutari
 N 20 19 W  sau nu terminam   
 V 17 4 E   github dark mode pooog
 N 19 20 E  we am 2 intrebari, cum tu stai cu site-urile? si daca vrei sa faci rubla?
+V 23 4 W   imi place sa intru pe site-uri; da ; why tho? u got a good idea?
