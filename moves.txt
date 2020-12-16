@@ -141,3 +141,4 @@ V 22 5 W   k
 N 22 19 N  zbs
 V 21 4 N   o_O
 N 23 19 N  O_o
+V 23 4 N   BLOOD FOR THE BLOOD GOD
