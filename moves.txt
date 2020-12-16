@@ -140,3 +140,4 @@ N 19 21 N  go un zvanok pe la vreo 18?
 V 22 5 W   k
 N 22 19 N  zbs
 V 21 4 N   o_O
+N 23 19 N  O_o
