@@ -142,3 +142,4 @@ N 22 19 N  zbs
 V 21 4 N   o_O
 N 23 19 N  O_o
 V 23 4 N   BLOOD FOR THE BLOOD GOD
+N 24 19 E  Bl il tii minte pe Mango
