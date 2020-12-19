@@ -146,3 +146,4 @@ N 24 19 E  Bl il tii minte pe Mango
 V 18 5 W   ALL HAIL JULIUS MANGO
 N 23 20 N  Good old days
 V 23 6 W   tf u writin there? O_O
+N 22 20 N  ai spalit... maladet 
