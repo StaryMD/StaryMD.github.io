@@ -147,3 +147,4 @@ V 18 5 W   ALL HAIL JULIUS MANGO
 N 23 20 N  Good old days
 V 23 6 W   tf u writin there? O_O
 N 22 20 N  ai spalit... maladet 
+V 3 10 S   https://i.imgflip.com/2neebb.jpg
