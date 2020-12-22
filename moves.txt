@@ -152,3 +152,4 @@ N 22 20 W  imi este interesant cand o sa te vrubesti ce ii scris acolo
 V 1 5 S    eu pana cand cand vad numa YAR N? ceva acolo, idk man, my two braincells can't comprehend
 N 22 21 W  maine esti desponibil la un zvanok?
 V 2 8 E    probably
+N 22 21 S  ok
