@@ -153,3 +153,4 @@ V 1 5 S    eu pana cand cand vad numa YAR N? ceva acolo, idk man, my two braince
 N 22 21 W  maine esti desponibil la un zvanok?
 V 2 8 E    probably
 N 22 21 S  ok
+V 14 13 E  https://www.youtube.com/watch?time_continue=6&v=j5a0jTc9S10&feature=emb_logo
