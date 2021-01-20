@@ -164,3 +164,4 @@ N 26 21 E  https://memegenerator.net/img/instances/59399455/but-yes-of-course.jp
 V 27 4 N   https://i.kym-cdn.com/entries/icons/mobile/000/033/054/The_Return_of_the_King_Banner.jpg
 N 27 20 W  https://data.whicdn.com/images/315687025/original.jpg
 V 18 14 S  za fak litera ii aia, ur trying to summon the devil aint ya
+N 27 19 W  mustn't agree
