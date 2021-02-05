@@ -174,3 +174,4 @@ N 29 21 W  agurcik
 V 20 8 S   daca ii fut restanta numa la comunicare eu bag pl
 N 27 18 W  cum jinu?
 V 31 8 S   *he moves* WRITE THAT DOWN, WRITE THAT DOWN
+N 28 18 E  written
