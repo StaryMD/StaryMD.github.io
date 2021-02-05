@@ -172,3 +172,4 @@ N 28 19 E  cum examenele?
 V 3 36 E   no restante, its all going smoothly, la tn cum?
 N 29 21 W  agurcik
 V 20 8 S   daca ii fut restanta numa la comunicare eu bag pl
+N 27 18 W  cum jinu?
