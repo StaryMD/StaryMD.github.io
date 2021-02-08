@@ -176,3 +176,4 @@ N 27 18 W  cum jinu?
 V 31 8 S   *he moves* WRITE THAT DOWN, WRITE THAT DOWN
 N 28 18 E  written
 V 4 3 W    n-am restanta la comunicare, my biggest fear has been neutralized
+N 27 18 N  we... eu deam m-am cam zaibit de pandemia asta
