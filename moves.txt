@@ -187,3 +187,4 @@ V 18 9 E   wat, nishi macar nu ai terminat a 4-a litera, cum eu sa inteleg ;_;
 N 30 19 W  it's obvious, man
 V 8 16 E   prikini cineva o sa foloseasca odata chestia asta pt o Cicada v2 nah xD
 N 30 19 S  ne, tema asta ii prea locala pentru cicada
+V 13 15 S  k
