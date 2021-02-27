@@ -189,3 +189,4 @@ V 8 16 E   prikini cineva o sa foloseasca odata chestia asta pt o Cicada v2 nah 
 N 30 19 S  ne, tema asta ii prea locala pentru cicada
 V 13 15 S  k
 N 31 20 S  interesant pana la 200 o sa te vrubesti?
+V 24 15 N  may god have mercy on my soul
