@@ -191,3 +191,4 @@ V 13 15 S  k
 N 31 20 S  interesant pana la 200 o sa te vrubesti?
 V 24 15 N  may god have mercy on my soul
 N 32 21 S  7 left
+V 4 21 W   i am bringing my own demise ain't I ;_;
