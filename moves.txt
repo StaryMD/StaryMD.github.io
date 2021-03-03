@@ -193,3 +193,4 @@ V 24 15 N  may god have mercy on my soul
 N 32 21 S  7 left
 V 4 21 W   i am bringing my own demise ain't I ;_;
 N 33 21 W  your death is near
+V 29 12 N  but i shall go with a smile
