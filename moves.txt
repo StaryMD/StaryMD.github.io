@@ -197,3 +197,4 @@ V 29 12 N  but i shall go with a smile
 N 32 20 E  and shall you do
 V 34 9 W   phd va trebui sa scot literele care le cunosc, un dictionar sh python ca sa inteleg ce ai scris
 N 32 19 E  udaci, last chance
+V 10 13 S  Nope, i give up, stiu numa ca prima litera ii Y si ultima ii N, restu ii ceata ;_;
