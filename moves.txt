@@ -199,3 +199,4 @@ V 34 9 W   phd va trebui sa scot literele care le cunosc, un dictionar sh python
 N 32 19 E  udaci, last chance
 V 10 13 S  Nope, i give up, stiu numa ca prima litera ii Y si ultima ii N, restu ii ceata ;_;    edit: TU AI SCRIS VARZAN BL eu ahuiesc
 N 11 14 N  Yep
+V 7 21 S   the return of https://i.redd.it/uxn969idlgk51.jpg
