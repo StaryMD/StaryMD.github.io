@@ -202,3 +202,4 @@ N 11 14 N  Yep
 V 7 21 S   the return of https://i.redd.it/uxn969idlgk51.jpg
 N 10 14 E  I've come for your cum
 V 28 10 N  then I shall summon all mine strength to protect what I hath left, I await thy arrival
+N 13 15 W  bibus 
