@@ -205,3 +205,4 @@ V 28 10 N  then I shall summon all mine strength to protect what I hath left, I 
 N 13 15 W  bibus 
 V 24 11 N  agurchik
 N 25 10 S  agurchik
+V 25 10 W  cum razboiu la voi?
