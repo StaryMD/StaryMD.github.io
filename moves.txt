@@ -207,3 +207,4 @@ V 24 11 N  agurchik
 N 25 10 S  agurchik
 V 25 10 W  cum razboiu la voi?
 N 13 16 W  agurchik, la voi cum?
+V 23 8 W   la noi pun ucraineni prin camine, fix cand ar trebui sa vina toti la camin pt ca incepem fata in fata pe 4
