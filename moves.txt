@@ -214,3 +214,4 @@ N 13 14 N  now that's an avengers level threat
 V 14 7 W   mutare de pe compu de la univer
 N 14 14 N  respect++
 V 2 30 E   outstanding move
+N 14 15 E  si cand planifici sa te intorci in moldavia?
