@@ -217,3 +217,4 @@ V 2 30 E   outstanding move
 N 14 15 E  si cand planifici sa te intorci in moldavia?
 V 6 26 E   legenda spune ca avem vacanta la sfarsitu lu aprilie, asa ca eu vad free real estate, tu?
 N 16 15 W  july
+V 8 26 E   me home, amu tre sa scot sapa sa ma duc la prasit ;_;
