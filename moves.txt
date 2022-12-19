@@ -235,3 +235,4 @@ V 5 25 W   daca ma enervez te prind, *y=53 btw, menacing T pose*
 N 15 16 W  take it
 V 2 26 W   no, it shalt forever roam these forbidden lands as the cursed one, i'll call it george
 N 16 13 N  praise be georged!
+V 13 52 W  a new era is upon us; https://www.youtube.com/watch?v=n5KNPqqHKxo
