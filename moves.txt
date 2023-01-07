@@ -237,3 +237,4 @@ V 2 26 W   no, it shalt forever roam these forbidden lands as the cursed one, i'
 N 16 13 N  praise be georged!
 V 13 52 W  a new era is upon us; https://www.youtube.com/watch?v=n5KNPqqHKxo
 N 14 15 S  u done with uni?
+V 36 9 N   sapt viitore incep examenele, tu le-ai terminat deam?
