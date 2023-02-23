@@ -241,3 +241,4 @@ V 36 9 N   sapt viitore incep examenele, tu le-ai terminat deam?
 N 20 13 N  nihuia, mai am inca 2
 V 37 6 W   what color is the sky
 N 21 12 S  depends on how drunk you are
+V 36 4 E   ay mi amor ay mi amor
