@@ -244,3 +244,4 @@ N 21 12 S  depends on how drunk you are
 V 36 4 E   ay mi amor ay mi amor
 N 23 15 E  happy easter
 V 34 11 W  happy christmas day
+N 24 14 W  happy lasagna day
