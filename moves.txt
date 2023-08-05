@@ -245,3 +245,4 @@ V 36 4 E   ay mi amor ay mi amor
 N 23 15 E  happy easter
 V 34 11 W  happy christmas day
 N 24 14 W  happy lasagna day
+V 14 27 N  https://ic.pics.livejournal.com/spikesgirl58/19179626/4403477/4403477_600.jpg
