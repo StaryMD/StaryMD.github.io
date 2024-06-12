@@ -260,3 +260,4 @@ N 27 15 N  stau o saptamana si o fut inapoi
 V 5 48 W   te prind eu in danemarca intr-o zi
 N 28 15 N  astept
 V 4 48 N   ok
+N 30 13 E  esti in timisoara?
