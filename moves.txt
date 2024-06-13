@@ -261,3 +261,4 @@ V 5 48 W   te prind eu in danemarca intr-o zi
 N 28 15 N  astept
 V 4 48 N   ok
 N 30 13 E  esti in timisoara?
+V 3 48 N   yes; mai am 10 zile de concediu, poate trag un drum pana in denkmark prin august si stau o sapt
