@@ -264,3 +264,4 @@ N 30 13 E  esti in timisoara?
 V 3 48 N   yes; mai am 10 zile de concediu, poate trag un drum pana in denkmark prin august si stau o sapt
 N 31 12 S  ie umbrela
 V 3 48 W   nu se poate; n-am voie cu umbrela mea in aeroport
+N 31 15 W  ie vin
