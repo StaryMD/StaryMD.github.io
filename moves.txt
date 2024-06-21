@@ -265,3 +265,4 @@ V 3 48 N   yes; mai am 10 zile de concediu, poate trag un drum pana in denkmark 
 N 31 12 S  ie umbrela
 V 3 48 W   nu se poate; n-am voie cu umbrela mea in aeroport
 N 31 15 W  ie vin
+V 3 49 W   buuuut muuum, nu-mi place vinu :(
